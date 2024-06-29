@@ -1,1 +1,1 @@
-###End to end ml project :diabetics prediction######
+###Diabetes Prediction pipeline######
