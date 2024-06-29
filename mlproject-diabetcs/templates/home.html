@@ -1,0 +1,64 @@
+<html>
+<body>
+    
+       <h1>Diabetes Prediction</h1>
+   
+       <form action="{{ url_for('predict_datapoint')}}" method="post">
+        
+                
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Number of Pregnancies eg. 0</label>
+            <input class="form-control" type="number" name="Pregnancies"
+                placeholder="Number of Pregnancies eg.0" min='0' max='10' />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Glucose (mg/dL) eg. 80</label>
+            <input class="form-control" type="number" name="Glucose"
+                placeholder="Glucose (mg/dL) eg. 80" min='0' max='500' />
+        </div>
+        
+        <div class="mb-3">
+            <label class="form-label">Blood Pressure (mmHg) eg. 80/label>
+            <input class="form-control" type="number" name="BloodPressure"
+                placeholder="Blood Pressure (mmHg) eg. 80" min='0' max='200' />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Skin Thickness (mm) eg. 20</label>
+            <input class="form-control" type="number" name="SkinThickness"
+                placeholder="Skin Thickness (mm) eg. 20" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Insulin Level (IU/mL) eg. 80</label>
+            <input class="form-control" type="number" name="Insulin"
+                placeholder="Insulin Level (IU/mL) eg. 80" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label"> Body Mass Index </label>
+            <input class="form-control" type="number" name="BMI"
+                placeholder="Body Mass Index (kg/m²) eg. 23.1" min='0' max='50' />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Diabetes Pedigree Function eg. 0.52</label>
+            <input class="form-control" type="number" name="DiabetesPedigreeFunction"
+                placeholder="Diabetes Pedigree Function eg. 0.52" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Age (years) eg. 34  </label>
+            <input class="form-control" type="number" name="Age"
+                placeholder="Age (years) eg. 34"  />
+        </div>
+
+        <div class="mb-3">
+            <input class="btn btn-primary" type="submit" value="Predict your chance of Diabetes" required />
+        </div>
+    </form>
+    <h2>
+       THE  prediction is {{results}}
+    </h2>
+   <body>
+</html>

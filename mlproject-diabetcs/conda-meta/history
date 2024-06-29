@@ -17,3 +17,11 @@
 +defaults/osx-arm64::xz-5.4.6-h80987f9_1
 +defaults/osx-arm64::zlib-1.2.13-h18a0788_1
 # update specs: ['python==3.11']
+==> 2024-06-26 17:09:35 <==
+# cmd: /Users/gayatrimanjarisahu/miniconda3/bin/conda install --prefix /Users/gayatrimanjarisahu/mlproject_diabetics/mlproject-diabetcs pytest -y
+# conda version: 23.9.0
++defaults/noarch::iniconfig-1.1.1-pyhd3eb1b0_0
++defaults/osx-arm64::packaging-23.2-py311hca03da5_0
++defaults/osx-arm64::pluggy-1.0.0-py311hca03da5_1
++defaults/osx-arm64::pytest-7.4.4-py311hca03da5_0
+# update specs: ['pytest']
